@@ -2,11 +2,11 @@ import { Button } from "@/components/ui/button";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-main flex items-center justify-center p-8">
-      <main className="text-center space-y-12 max-w-2xl mx-auto">
+    <div className="min-h-screen bg-gradient-main flex items-center justify-center p-4 md:p-8">
+      <main className="text-center space-y-12 max-w-3xl mx-auto w-full">
         {/* Main Title */}
         <header>
-          <h1 className="text-8xl md:text-9xl font-bold bg-gradient-text bg-[length:400%_400%] bg-clip-text text-transparent animate-gradient-shift tracking-tight">
+          <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold bg-gradient-text bg-[length:400%_400%] bg-clip-text text-transparent animate-gradient-shift tracking-tight leading-tight">
             BABYKK
           </h1>
         </header>

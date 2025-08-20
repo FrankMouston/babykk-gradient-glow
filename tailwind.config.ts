@@ -68,7 +68,7 @@ export default {
 				}
 			},
 			backgroundImage: {
-				'gradient-main': 'var(--gradient-background)',
+				'gradient-main': 'var(--gradient-main)',
 				'gradient-text': 'var(--gradient-text)',
 				'gradient-pink': 'var(--gradient-pink)',
 				'gradient-purple': 'var(--gradient-purple)'
