@@ -13,23 +13,35 @@ const Index = () => {
 
         {/* Action Buttons */}
         <section className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-          <Button 
-            variant="pink" 
-            size="lg"
-            className="px-12 py-6 text-lg font-bold tracking-wide uppercase"
-            onClick={() => window.open('https://t.me/babykk010', '_blank')}
+          <a 
+            href="https://t.me/babykk010" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-block"
           >
-            BUY
-          </Button>
+            <Button 
+              variant="pink" 
+              size="lg"
+              className="px-12 py-6 text-lg font-bold tracking-wide uppercase"
+            >
+              BUY
+            </Button>
+          </a>
           
-          <Button 
-            variant="purple" 
-            size="lg"
-            className="px-12 py-6 text-lg font-bold tracking-wide uppercase"
-            onClick={() => window.open('https://t.me/babykk010', '_blank')}
+          <a 
+            href="https://t.me/babykk010" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-block"
           >
-            FREE PREVIEWS
-          </Button>
+            <Button 
+              variant="purple" 
+              size="lg"
+              className="px-12 py-6 text-lg font-bold tracking-wide uppercase"
+            >
+              FREE PREVIEWS
+            </Button>
+          </a>
         </section>
       </main>
     </div>
