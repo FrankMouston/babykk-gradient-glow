@@ -6,7 +6,7 @@ const Index = () => {
       <main className="text-center space-y-12 max-w-2xl mx-auto">
         {/* Main Title */}
         <header>
-          <h1 className="text-8xl md:text-9xl font-bold text-foreground tracking-tight">
+          <h1 className="text-8xl md:text-9xl font-bold bg-gradient-text bg-[length:400%_400%] bg-clip-text text-transparent animate-gradient-shift tracking-tight">
             BABYKK
           </h1>
         </header>
@@ -17,6 +17,7 @@ const Index = () => {
             variant="pink" 
             size="lg"
             className="px-12 py-6 text-lg font-bold tracking-wide uppercase"
+            onClick={() => window.open('https://t.me/babykk010', '_blank')}
           >
             BUY
           </Button>
@@ -25,6 +26,7 @@ const Index = () => {
             variant="purple" 
             size="lg"
             className="px-12 py-6 text-lg font-bold tracking-wide uppercase"
+            onClick={() => window.open('https://t.me/babykk010', '_blank')}
           >
             FREE PREVIEWS
           </Button>
