@@ -70,12 +70,12 @@ export default {
 			backgroundImage: {
 				'gradient-main': 'var(--gradient-main)',
 				'gradient-text': 'var(--gradient-text)',
-				'gradient-pink': 'var(--gradient-pink)',
-				'gradient-purple': 'var(--gradient-purple)'
+				'gradient-red': 'var(--gradient-red)',
+				'gradient-white': 'var(--gradient-white)'
 			},
 			boxShadow: {
-				'pink': 'var(--shadow-pink)',
-				'purple': 'var(--shadow-purple)'
+				'red': 'var(--shadow-red)',
+				'white': 'var(--shadow-white)'
 			},
 			transitionTimingFunction: {
 				'smooth': 'var(--transition-smooth)'

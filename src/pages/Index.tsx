@@ -20,7 +20,7 @@ const Index = () => {
             className="inline-block"
           >
             <Button 
-              variant="pink" 
+              variant="red" 
               size="lg"
               className="px-12 py-6 text-lg font-bold tracking-wide uppercase"
             >
@@ -35,7 +35,7 @@ const Index = () => {
             className="inline-block"
           >
             <Button 
-              variant="purple" 
+              variant="white" 
               size="lg"
               className="px-12 py-6 text-lg font-bold tracking-wide uppercase"
             >
