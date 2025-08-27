@@ -14,7 +14,7 @@ const Index = () => {
         {/* Action Buttons */}
         <section className="flex flex-col sm:flex-row gap-6 justify-center items-center">
           <a 
-            href="https://t.me/babykk011" 
+            href="https://t.me/babykk012" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-block"
@@ -29,7 +29,7 @@ const Index = () => {
           </a>
           
           <a 
-            href="https://t.me/babykk011" 
+            href="https://t.me/babykk012" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-block"
